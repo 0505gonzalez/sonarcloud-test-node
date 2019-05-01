@@ -1,0 +1,30 @@
+{
+    "name": "sonarcloud-test-node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "nyc mocha index.test.js"
+    },
+    "nyc": {
+        "reporter": [
+            "lcov",
+            "text"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/0505gonzalez/sonarcloud-test-node.git"
+    },
+    "author": "",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/0505gonzalez/sonarcloud-test-node/issues"
+    },
+    "homepage": "https://github.com/0505gonzalez/sonarcloud-test-node#readme",
+    "devDependencies": {
+        "expect.js": "^0.3.1",
+        "mocha": "^6.1.4",
+        "nyc": "^14.0.0"
+    }
+}
